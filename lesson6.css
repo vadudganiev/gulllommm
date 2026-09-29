@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: black;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(6, 200px);
+    gap: 10px;
+    margin: 20px;
+}
+.item{
+    border-radius: 15px;
+}
+.item1{
+grid-row: span 2;
+background-color: purple;
+}
+.item2{
+    grid-column: span 1;
+    background-color: purple;
+}
+.item3{
+    grid-column: span 2;
+    background-color: purple;
+}
+.item4{
+    grid-column: span 1;
+    background-color: purple;
+}
+.item5{
+    grid-column: span 1;
+grid-row: span 2;
+background-color: purple;
+}
+.item6{
+    grid-column: span 2;
+    background-color: purple;
+}
+.item7{
+    grid-column: span 1;
+    grid-row: span 2;
+    background-color: purple;
+}
+.item8{
+    grid-column: span 1;
+    background-color: purple;
+}
+.item9{
+    grid-column: span 2;
+    background-color: purple;
+}
+.item10{
+    grid-column: span 1;
+    grid-row: span 2;
+    background-color: purple;
+}
+.item11{
+    grid-column: span 2;
+    background-color: purple;
+}
+.item12{
+    grid-column: span 1;
+    background-color: purple;
+}
+.item13{
+    grid-column: span 1;
+    background-color: purple;
+}
+.item14{
+    grid-column: span 2;
+    background-color: purple;
+}
+.item15{
+    grid-column: span 1;
+    background-color: purple;
+}
